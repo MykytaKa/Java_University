@@ -73,7 +73,7 @@ public class PersonEditDialogController {
             person.setLastName(lastNameField.getText());
             person.setGroupCode(Integer.parseInt(groupCodeField.getText()));
             person.setBirthday(DateUtil.parse(birthdayField.getText()));
-            okClicked=true;
+            okClicked = true;
             dialogStage.close();
         }
     }

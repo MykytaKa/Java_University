@@ -99,7 +99,7 @@ public class MainApp extends Application {
             // Завантажуємо файл fxml і створюємо нову сцену для діалогового вікна.
             FXMLLoader loader = new FXMLLoader();
 
-            loader.setLocation(MainApp.class.getResource("/org/example/lab_5/view/PersonEditDialog.fxml"));
+            loader.setLocation(MainApp.class.getResource("/org/example/lab_5/PersonEditDialog.fxml"));
             AnchorPane page = (AnchorPane) loader.load();
             // Створюємо діалогове вікно Stage.
             Stage dialogStage = new Stage();

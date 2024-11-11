@@ -49,7 +49,7 @@
             </TextField>
          </children>
       </GridPane>
-      <Button layoutX="125.0" layoutY="124.0" mnemonicParsing="false" text="OK" />
-      <Button layoutX="171.0" layoutY="124.0" mnemonicParsing="false" text="Cancel" />
+      <Button layoutX="125.0" layoutY="124.0" mnemonicParsing="false" onAction="#handleOk" text="OK" />
+      <Button layoutX="171.0" layoutY="124.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
    </children>
 </AnchorPane>
